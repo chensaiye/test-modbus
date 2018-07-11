@@ -1,5 +1,8 @@
 # Prerequisites
 *.d
+*.crf
+*.htm
+*.axf
 
 # Object files
 *.o
