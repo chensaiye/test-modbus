@@ -49,7 +49,7 @@ int main(void)
  	uart_init(9600);
 	LED_Init();		  	
 	LCD_Init();
-	POINT_COLOR=RED;//设置字体为红色 
+	//POINT_COLOR=RED;//设置字体为红色 
 	LCD_ShowString(30,10,200,16,16,"ucos ii & modbus test.\r\n");	
 	memcpy(&usRegInputBuf[0],"I am InputReg",sizeof("I am InputReg"));
 	eMBInit(MB_RTU, 0x0A, 0, 19200, MB_PAR_NONE);
